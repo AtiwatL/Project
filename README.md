@@ -1,22 +1,22 @@
-## Project
+# Project
 Humanity voice identification
 
 
-## Description
+# Description
 Humanity Voice identification system or voice CAPTCHA to prevent websites from being attacked by malicious people. Currently, CAPTCHAs are available in image selection, letter print or quiz, etc., as each human has a voiceprint that is one of the things that It is a unique and distinctive feature of a person or called Biometric signature So the idea was that this system could be used in the separation between humans and computers. This is because the human-to-computer voice or any synthetic voice is not very directly human. There will be different sound frequencies. It is also an improved experiment about verifying humanity by voice through the CAPTCHA system.
 
-## Installation
-# model
+# Installation
+## model
 First,change directory to your project directory.
 
-cd Backend
+cd Backend__
 source venv/bin/activate
 pip install tensorflow==2.5.0
 pip install keras==2.4.3
 
 cd ..
 
-# Front-end
+## Front-end
 - check node
 node -v
 npm -v
@@ -28,9 +28,9 @@ code .
 - open terminal in vscode
 npm start
 
-## Directory Tree
+# Directory Tree
 
-# project
+## project
 
 * [backend/](./project/backend)
   * [.ipynb_checkpoints/](./project/backend/.ipynb_checkpoints)
