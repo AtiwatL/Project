@@ -9,23 +9,31 @@ Humanity Voice identification system or voice CAPTCHA to prevent websites from b
 ## model
 First,change directory to your project directory.
 
-cd Backend__
+cd Backend
+
 source venv/bin/activate
+
 pip install tensorflow==2.5.0
+
 pip install keras==2.4.3
 
 cd ..
 
 ## Front-end
 - check node
+
 node -v
+
 npm -v
 
 cd client
+
 npm install node-modules
+
 code .
 
 - open terminal in vscode
+
 npm start
 
 # Directory Tree
